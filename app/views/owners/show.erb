@@ -1,0 +1,6 @@
+Name : <%=  @owner.name %>
+Age: <%= @owner.age %>
+
+<% @owner.dogs.each do |dog| %> 
+   <li> <%= dog.name %> </li>
+<% end %>
